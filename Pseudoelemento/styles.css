@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
+.button {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+.button:hover {
+  color: #fff;
+  background: green;
+  content: '¡Hecho!';
+}
+
+.button::before {
+  content: 'Pasa por encima';
+}
+
+.button:hover::before {
+  content: '¡Hecho!';
+}
