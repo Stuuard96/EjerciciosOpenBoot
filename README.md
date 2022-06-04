@@ -1,1 +1,3 @@
-# Ejercicios Realizados para el Curso Html5 y Css3
+# OpenBootcamp
+
+Ejercicios resueltos para completar los desafios brindados por el bootcamp: https://campus.open-bootcamp.com/ del curso HTML y CSS
