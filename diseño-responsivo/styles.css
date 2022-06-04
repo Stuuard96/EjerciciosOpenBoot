@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+}
+
+.aside {
+  padding: 20px;
+  background: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-right: 4px solid gray;
+}
+
+.aside div {
+  background-color: aqua;
+  padding: 10px;
+  cursor: pointer;
+}
+
+main {
+  flex-grow: 1;
+  background: red;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.principal {
+  background: orange;
+  padding: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  .aside {
+    flex-direction: row;
+  }
+}
