@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.btn-modern {
+  background: blue;
+  border: none;
+  border-bottom: 2px solid darkblue;
+  color: aqua;
+  list-style: none;
+  border-radius: 5px;
+  padding: 20px 40px;
+  cursor: pointer;
+  font-size: 30px;
+  transition: all ease 0.4s;
+}
+
+.btn-modern:hover {
+  background: red;
+  box-shadow: -1px 6px 10px 1px rgba(0, 0, 0, 0.58);
+  color: yellow;
+  /* transform: translateY(-5px); */
+  animation: traslacion 0.2s forwards;
+}
+
+@keyframes traslacion {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
